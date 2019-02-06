@@ -1,6 +1,20 @@
+<!-- Passing Data With Event Binding -->
+<!-- <input type="text"
+(input)='onUpdateServerName($event)'
+!-->
+
+
+<!-- Two Way Data Binding -->
+<input type='text' [(ngModel)]='serverName'>
+
+<!-- Property Binding And Event Binding  -->
 <button class='btn btn-primary'
 [disabled]='!allowNewServer'
+(click)='onCreateServer()'
 >Add Sever</button>
-<p [innerText]='getValue()'></p>
+<p>
+{{serverCreationStatus}}
+</p>
+
 <app-server></app-server>
 <app-server></app-server>
