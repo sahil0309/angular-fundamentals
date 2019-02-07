@@ -5,7 +5,11 @@ import {Component} from '@angular/core';
       [app-server] as a property or
       .app-server as a class
     */
-    templateUrl:'./server.component.html'
+    templateUrl:'./server.component.html',
+    styles:[`
+    .online{
+      color:white
+    }`]
 })
 export class ServerComponent{
   serverId:number=10;
