@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 @Component({
     selector:'app-server',
-    /* Selector  Could be app-server [Directive] 
+    /* Selector  Could be app-server [Element] 
       [app-server] as a property or
       .app-server as a class
     */
